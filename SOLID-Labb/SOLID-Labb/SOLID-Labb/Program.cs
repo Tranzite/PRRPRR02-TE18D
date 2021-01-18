@@ -4,15 +4,9 @@ namespace SOLID_Labb
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        
 
-
-            Console.WriteLine("###############");
-            Console.WriteLine();
-        }
-
-            static void AnimalColor(string[] args)
+        static void AnimalColor(string[] args)
             {
                 Animal[] animals = {new Dog("Black"),
                             new Hedgehog("Pink"),
@@ -38,7 +32,13 @@ namespace SOLID_Labb
                     Console.WriteLine();
                 }
             }
-        
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("###############");
+            Console.WriteLine();
+        }
     }
 }
 
