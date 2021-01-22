@@ -9,7 +9,7 @@ namespace SOLID_Labb
             Animal[] animals = animalColor();
             Console.WriteLine("###############");
             Console.WriteLine();
-            Temp(animals);
+            PrintAnimalDo(animals);
             Console.WriteLine("###############");
             Console.WriteLine();
 
@@ -24,7 +24,7 @@ namespace SOLID_Labb
             return animals;
         }
 
-        static void Temp(Animal[] animals)
+        static void PrintAnimalDo(Animal[] animals)
         {
             foreach (var animal in animals)
             {
@@ -40,11 +40,11 @@ namespace SOLID_Labb
             animal.Eat();
             animal.Sleep();
             animal.Speak();
-            animal._color = "Grey";
+            animalColor();
             Console.WriteLine(animal.GetType().Name + " is " + animal._color);
             Console.WriteLine();
 
-        }
+        } //animal._color = "Grey";
     }
 }
 
