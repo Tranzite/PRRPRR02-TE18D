@@ -4,7 +4,13 @@ namespace SOLID_Labb
 {
     class Program
     {
-        
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("###############");
+            Console.WriteLine();
+        }
 
         static void AnimalColor(string[] args)
             {
@@ -32,13 +38,7 @@ namespace SOLID_Labb
                     Console.WriteLine();
                 }
             }
-        static void Main(string[] args)
-        {
-
-
-            Console.WriteLine("###############");
-            Console.WriteLine();
-        }
+        
     }
 }
 
